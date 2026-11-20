@@ -2,9 +2,23 @@
 
 A visual curriculum on active acoustic modeling and sensor performance prediction. Twenty units run from a single ping to a multistatic field, and from a propagation engine's output to an operator's display. Each unit stays locked until the test for the one before it is passed.
 
+![The home page, with eight units passed and the rest still locked](docs/screenshots/home.png)
+
 ## Personal learning only
 
 This is a personal project for learning the subject, and it is for personal learning only. It is not a product, a reference or official guidance, and it is not affiliated with or endorsed by any employer or organization. The lessons are a synthesis of open literature and have not been reviewed by an acoustician, so check anything that matters against the sources the site cites.
+
+## A look at the playgrounds
+
+Every unit has an interactive lab that runs a small physics model in the browser. Four of the twenty are shown here.
+
+| Ray Lab | TL Full-Field |
+|---|---|
+| ![Rays bending through a deep ocean sound speed profile](docs/screenshots/ray-lab.png) | ![Transmission loss by range and depth with a loss curve underneath](docs/screenshots/tl-full-field.png) |
+
+| Bistatic Table | Field Planner |
+|---|---|
+| ![A source, receiver and target with equal-time ellipses and the blind zone](docs/screenshots/bistatic-table.png) | ![Detection probability for a field of two sources and six receivers](docs/screenshots/field-planner.png) |
 
 ## Use it
 
