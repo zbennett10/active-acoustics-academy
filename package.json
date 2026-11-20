@@ -1,0 +1,50 @@
+{
+  "name": "active-acoustics-academy",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A personal learning project. A visual, test-gated curriculum on active acoustic modeling",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "vite build && playwright test",
+    "check": "tsc --noEmit && vitest run && vite build && playwright test"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "d3-color": "^3.1.1",
+    "d3-scale-chromatic": "^3.1.1",
+    "katex": "^0.19.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-markdown": "^10.1.0",
+    "react-router": "^8.5.2",
+    "rehype-katex": "^7.0.1",
+    "remark-directive": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "unist-util-visit": "^5.2.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/d3-color": "^3.1.3",
+    "@types/d3-scale-chromatic": "^3.1.0",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "@vitest/coverage-v8": "^5.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vite-plugin-singlefile": "^2.3.4",
+    "vitest": "^5.1.1"
+  }
+}

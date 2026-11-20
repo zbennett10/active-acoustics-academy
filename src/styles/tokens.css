@@ -1,0 +1,56 @@
+/* Design tokens. Dark only, styled as a console in deep water. */
+:root {
+  color-scheme: dark;
+
+  --bg-0: #050b12;
+  --bg-1: #0a141f;
+  --bg-2: #0f1d2b;
+  --bg-3: #162a3c;
+  --line: #1c3246;
+  --line-strong: #2a4a63;
+  --line-soft: rgb(140 190 225 / 0.1);
+
+  --ink: #e8f0f6;
+  --ink-2: #a8bccb;
+  --ink-3: #6c8598;
+  --ink-4: #45596a;
+
+  --accent: #45e0c8;
+  --accent-dim: #1f8f82;
+  --accent-ink: #04201c;
+  --amber: #ffb454;
+  --glow: rgb(69 224 200 / 0.28);
+
+  /* Series colors in one fixed order, validated for color vision deficiency on dark. */
+  --s-blue: #3987e5;
+  --s-orange: #d95926;
+  --s-aqua: #199e70;
+  --s-yellow: #c98500;
+  --s-magenta: #d55181;
+  --s-violet: #9085e9;
+
+  /* Each sonar quantity keeps one color everywhere it appears. */
+  --c-source: var(--s-blue);
+  --c-echo: var(--s-orange);
+  --c-se: var(--s-aqua);
+  --c-dt: var(--s-yellow);
+  --c-reverb: var(--s-magenta);
+  --c-noise: var(--s-violet);
+
+  --good: #0ca30c;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+
+  --font-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 16px;
+
+  --rail: 292px;
+  --shadow: 0 18px 50px -20px rgb(0 0 0 / 0.75);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
