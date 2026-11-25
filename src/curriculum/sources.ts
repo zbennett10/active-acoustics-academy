@@ -18,7 +18,7 @@ export const SOURCES: SourceGroup[] = [
       { cite: 'F. B. Jensen, W. A. Kuperman, M. B. Porter, H. Schmidt, Computational Ocean Acoustics, 2nd ed. (2011)', note: 'Rays, normal modes, wavenumber integration and parabolic equations in full. Behind unit 5.' },
       { cite: 'D. A. Abraham, Underwater Acoustic Signal Processing: Modeling, Detection, and Estimation (2019)', note: 'Detection theory, waveforms, matched filtering and reverberation statistics. Behind units 11 and 12.' },
       { cite: 'X. Lurton, An Introduction to Underwater Acoustics: Principles and Applications, 2nd ed. (2010)', note: 'A broad, readable introduction with good physical explanations.' },
-      { cite: 'P. C. Etter, Underwater Acoustic Modeling and Simulation, 5th ed. (2018)', note: 'A survey of propagation, noise, reverberation and sonar performance models, including the Navy standard set.' },
+      { cite: 'P. C. Etter, Underwater Acoustic Modeling and Simulation, 5th ed. (2018)', note: 'A survey of propagation, noise, reverberation and sonar performance models, including the standard set.' },
       { cite: 'A. D. Waite, Sonar for Practising Engineers, 3rd ed. (2002)', note: 'Compact and practical, with worked sonar equation examples.' },
     ],
   },
@@ -31,7 +31,7 @@ export const SOURCES: SourceGroup[] = [
     ],
   },
   {
-    title: 'Propagation engines and Navy standard models',
+    title: 'Propagation engines and standard models',
     items: [
       { cite: 'R. E. Keenan, An introduction to GRAB eigenrays and CASS reverberation and signal excess, OCEANS 2000', note: 'How the Gaussian Ray Bundle engine forms eigenrays by family and how CASS builds reverberation and signal excess from them.', url: 'https://ieeexplore.ieee.org/document/881743' },
       { cite: 'H. Weinberg and R. E. Keenan, Gaussian ray bundles for modeling high-frequency propagation loss under shallow-water conditions, Journal of the Acoustical Society of America 100 (1996)', note: 'The original description of the Gaussian ray bundle method.' },
